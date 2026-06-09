@@ -1,15 +1,24 @@
 {
-  "name": "backend",
+  "name": "ams-operator-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "AMS Operator Backend API",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests configured\" && exit 0"
   },
-  "keywords": [],
+  "keywords": [
+    "direct-mail",
+    "bulk-mail",
+    "postgrid",
+    "lob",
+    "click2mail",
+    "postalytics"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "axios": "^1.16.1",
     "cors": "^2.8.6",
